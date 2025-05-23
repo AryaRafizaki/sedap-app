@@ -1,0 +1,98 @@
+{
+  "Lunch": [
+    {
+      "name": "Nasi Padang",
+      "description": "Nasi putih dengan rendang, gulai ayam, dan sambal hijau",
+      "price": "Rp35.000"
+    },
+    {
+      "name": "Ayam Penyet",
+      "description": "Ayam goreng dengan sambal bawang, lalapan, dan nasi",
+      "price": "Rp28.000"
+    },
+    {
+      "name": "Soto Ayam",
+      "description": "Sup ayam dengan bihun, telur, koya, dan nasi putih",
+      "price": "Rp25.000"
+    },
+    {
+      "name": "Gado-Gado",
+      "description": "Sayuran rebus dengan bumbu kacang dan kerupuk",
+      "price": "Rp22.000"
+    },
+    {
+      "name": "Nasi Goreng Spesial",
+      "description": "Nasi goreng dengan telur, ayam, dan kerupuk",
+      "price": "Rp30.000"
+    },
+    {
+      "name": "Bakso Urat",
+      "description": "Bakso sapi dengan kuah kaldu dan mie kuning",
+      "price": "Rp20.000"
+    }
+  ],
+  "Dinner": [
+    {
+      "name": "Sate Ayam",
+      "description": "Sate ayam dengan bumbu kacang dan lontong",
+      "price": "Rp27.000"
+    },
+    {
+      "name": "Ikan Bakar",
+      "description": "Ikan nila bakar dengan sambal dan nasi uduk",
+      "price": "Rp32.000"
+    },
+    {
+      "name": "Nasi Liwet",
+      "description": "Nasi gurih dengan ayam suwir, teri, dan sambal",
+      "price": "Rp26.000"
+    },
+    {
+      "name": "Mie Goreng Jawa",
+      "description": "Mie kuning goreng dengan ayam, telur, dan sayur",
+      "price": "Rp24.000"
+    },
+    {
+      "name": "Pecel Lele",
+      "description": "Lele goreng, sambal terasi, lalapan, dan nasi putih",
+      "price": "Rp22.000"
+    },
+    {
+      "name": "Tahu Tempe Penyet",
+      "description": "Tahu dan tempe goreng dengan sambal penyet",
+      "price": "Rp18.000"
+    }
+  ],
+  "Dessert": [
+    {
+      "name": "Es Cendol",
+      "description": "Minuman manis dari tepung beras, santan, dan gula merah",
+      "price": "Rp12.000"
+    },
+    {
+      "name": "Es Campur",
+      "description": "Es serut dengan buah-buahan, cincau, sirup, dan susu",
+      "price": "Rp15.000"
+    },
+    {
+      "name": "Klepon",
+      "description": "Kue ketan isi gula merah, dilapisi kelapa parut",
+      "price": "Rp10.000"
+    },
+    {
+      "name": "Lapis Legit",
+      "description": "Kue lapis berlapis-lapis dengan rasa manis khas",
+      "price": "Rp14.000"
+    },
+    {
+      "name": "Pisang Goreng",
+      "description": "Pisang yang digoreng renyah, cocok untuk camilan",
+      "price": "Rp9.000"
+    },
+    {
+      "name": "Dadar Gulung",
+      "description": "Kue gulung isi kelapa parut dan gula merah",
+      "price": "Rp8.000"
+    }
+  ]
+}

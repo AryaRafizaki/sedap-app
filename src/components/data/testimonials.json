@@ -1,0 +1,20 @@
+[
+  {
+    "quote": "Harga yang terjangkau dan suasana yang menyenangkan hanya bisa diimbangi dengan makanan yang lezat. Teruslah berkarya.",
+    "name": "Emilia Riska",
+    "role": "Customer",
+    "image": "/img/testi-1.jpg"
+  },
+  {
+    "quote": "Sedap adalah yang terbaik. Makanannya enak, suasananya menyenangkan, dan harganya sangat terjangkau. Tidak ada yang lebih baik dari ini.",
+    "name": "Robert Davis",
+    "role": "Customer",
+    "image": "/img/testi-2.jpg"
+  },
+  {
+    "quote": "Kami sudah sering ke Sedap selama bertahun-tahun. Kami tahu apa yang diharapkan: makanan enak, harga makanan yang terjangkau.",
+    "name": "Michelle Smith",
+    "role": "Customer",
+    "image": "/img/testi-3.jpg"
+  }
+]
