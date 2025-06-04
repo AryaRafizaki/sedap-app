@@ -27,6 +27,7 @@ const GuestLayout = React.lazy(() => import("./layouts/GuestLayout"));
 const HalamanUtama = React.lazy(() => import("./pages/guest/HalmanUtama"));
 const Product = React.lazy(() => import("./pages/guest/Product"));
 const About = React.lazy(() => import("./pages/guest/About"));
+const Products = React.lazy(() => import("./pages/Products"));
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
+          <Route path="products" element={<Products />} />
         </Route>
 
         <Route element={<AuthLayout />}>
