@@ -28,7 +28,7 @@ const HalamanUtama = React.lazy(() => import("./pages/guest/HalmanUtama"));
 const Product = React.lazy(() => import("./pages/guest/Product"));
 const About = React.lazy(() => import("./pages/guest/About"));
 const Products = React.lazy(() => import("./pages/Products"));
-
+const ProductsDetail = React.lazy(() => import("./pages/ProductsDetail"))
 
 function App() {
   return (
@@ -40,6 +40,7 @@ function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductsDetail />} />
         </Route>
 
         <Route element={<AuthLayout />}>
