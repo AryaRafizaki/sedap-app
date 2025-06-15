@@ -4,6 +4,7 @@ import React from 'react';
 import { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Loading from './components/Loading';
+
 // import Dashboard from "./pages/Dashboard";
 // import Customers from "./pages/Customers";
 // import Orders from "./pages/Orders";
@@ -21,6 +22,7 @@ const Customers = React.lazy(() => import("./pages/Customers"));
 const Orders = React.lazy(() => import("./pages/Orders"));
 const NotFound = React.lazy(() => import("./pages/NotFound"));
 const Login = React.lazy(() => import("./pages/auth/Login"));
+const Note = React.lazy(() => import("./pages/notes"));
 const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 const GuestLayout = React.lazy(() => import("./layouts/GuestLayout"));
@@ -41,6 +43,7 @@ function App() {
           <Route path="/customers" element={<Customers />} />
           <Route path="products" element={<Products />} />
           <Route path="/products/:id" element={<ProductsDetail />} />
+          <Route path="/notes" element={<Note />} />
         </Route>
 
         <Route element={<AuthLayout />}>
